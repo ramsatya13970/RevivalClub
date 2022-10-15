@@ -1,0 +1,35 @@
+.footer{
+    background-color: black;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+}
+.footer .heading{
+    font-family: 'Inter' !important;
+    font-size: 1.2rem !important;
+    color: #FF9671;
+    font-weight: 700;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter' !important;
+    display: inline-block;
+    margin-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.links a:hover{
+    
+    border-bottom: 2px solid #FF9671;
+}
+
+.social_icon a:hover{
+    transition: 0.7s;
+}
+.social_icon a:hover{
+   
+    border-bottom: 2px solid black;
+    -ms-transform: rotate(360deg) scale(1.07); /* IE 9 */
+  transform: rotate(360deg) scale(1.07);
+    /* transform: scale(1.07); */
+}
